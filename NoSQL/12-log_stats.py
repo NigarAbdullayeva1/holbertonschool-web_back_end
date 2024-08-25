@@ -25,4 +25,4 @@ if __name__ == "__main__":
 
     countGet = collection.count_documents({"method": "GET", "path": "/status"})
 
-    print("{} status check".format(countGet))
+    print("{} status check".format(countGet))                                                          
